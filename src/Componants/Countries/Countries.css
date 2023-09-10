@@ -1,0 +1,15 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.visited {
+    background-color: blue;
+    color: black;
+}
+.text-color{
+    text-align: center;
+    color: red;
+    font-weight: 900;
+}
