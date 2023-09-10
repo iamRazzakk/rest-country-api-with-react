@@ -43,9 +43,9 @@ const Countries = () => {
                 {
                     countries.map(contry => <Country
                         key={Country.cca3}
-                        handleVisitedCountry={handleVisitedCountry}
                         // newVisitedCountry={newVisitedCountry}
                         handlerVisitedFlag={handlerVisitedFlag}
+                        handleVisitedCountry={handleVisitedCountry}
                         country={contry}></Country>)
                 }
             </div>
